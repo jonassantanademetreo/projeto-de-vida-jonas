@@ -62,10 +62,13 @@
     }
 
     @media screen and(min-width:768px) {
-        . botoes{
+        .botoes{
             display: flex;
         }
-        . botao:first-child {
-            border-redius: 0 40px 0 0;
+        .botao:first-child {
+             border-redius: 40px 0 0;
+        }
+        .botao:first-child {
+             border-redius: 0 40px 0 0;
         }
     }
