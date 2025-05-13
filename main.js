@@ -1,0 +1,1 @@
+cont botao = document.querySelectorAll(".botao");
