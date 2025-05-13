@@ -66,6 +66,6 @@
             display: flex;
         }
         . botao:first-child {
-            border-redius:0 40px 0 0;
+            border-redius: 0 40px 0 0;
         }
     }
