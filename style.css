@@ -82,7 +82,11 @@ display: block;
     font-size: 28px;
     text-align: center;
 }
-    
+ .aba-conteudo-ativo-prinsipal{
+    text-aling: center;
+    color: var(--verde)
+    text-trasform: uppercase;
+ }   
 
 
 
