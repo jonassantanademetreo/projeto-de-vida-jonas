@@ -15,13 +15,13 @@ for (let i = 0; i < botoes.length; i++) {
     }
 }
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivol= new Date("2029-12-30T00:00:00");
+const tempoObjetivo1 = new Date("2029-12-30T00:00:00");
 
-contaderes[0].textContent = calculatTempo(tempoObjetivol);
+contaderes[0].textContent = calculatTempo(tempoObjetivo1);
 
-function calculatTempo(tempoObjetivol){
+function calculatTempo(tempoObjetivo){
     let tempoAtual = new Date();
-    let tempoFinal = tempoObjetivol - tempoAtual;
+    let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math.floor(tempoFinal/1000);
     let minutos = Math.floor(segundos/60);
     let horas = Math.floor(minutos/60);
