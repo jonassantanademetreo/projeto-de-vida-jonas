@@ -32,7 +32,7 @@ function calculaTempo(tempoObjetivo){
 
 segundos %= 60;
 minutos %=60;
-horas %=60;
+horas %=24;
 
 
 if(tempoFinal>0){

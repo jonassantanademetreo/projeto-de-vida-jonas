@@ -92,9 +92,21 @@
     }
 
     .cotador{
-        font-size: 20px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
+
+    .cotador-digito{
+        padding: 0 16px;
+        text-align: center;
+        min-width: 100px;
+    }
+    .cotador-digito-numero{
+        font-size: 80px;
+    }
+       
+    
     
     @media screen and (min-width:768px){
         .botoes {
