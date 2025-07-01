@@ -34,7 +34,13 @@ segundos %= 60;
 minutos %=60;
 horas %=60;
 
-return (dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ");
+
+if (tempoFinal>0) {
+    return (dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ");
+}alse{
+    return "acabou seu tempo seu bosta"
+}
+    
 }
 
 function atualizaCronometro(){
