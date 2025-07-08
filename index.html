@@ -1,122 +1,140 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meus objetivos do ano</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
+<section class="conteudo-principal">
+<h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
+<div class="conteudo">
+<div class="botoes">
+<button class="botao ativo">Completar o ensino médio</button>
+<button class="botao">Ir para a praia</button>
+<button class="botao">Acampar com os amigos</button>
+<button class="botao">Comprar um carro</button>
+</div>
 
-        <div class="conteudo">
-            <div class="botoes">
-                <button class="botao ativo">M3 COMPETITION</button>
-                <button class="botao">CASAS DE ALUGUEIS</button>
-                <button class="botao">CASA PROPRIA</button>
-                <button class="botao">CURSO DE VETERINARIA</button>
-            </div>
+<div class="abas-textos">
+<div class="aba-conteudo ativo">
+<h3 class="aba-conteudo-titulo-principal">completar o ensino médio</h3>
+<h4 class="aba-conteudo-titulo-secundario">tempo para completar o objetivo</h4>
+<div class="contador">
 
-            <div class="abas-textos">
-                <div class="aba-conteudo ativo">
-                    <h3 class="aba-conteudo-titulo-principal">M3 COMPETITION</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">tempo para colpletar objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias0">7</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas0">7</p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min0">7</p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg0">7</p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">CASAS DE ALUGUEIS</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">tempo para colpletar objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias1">7</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas1">7</p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min1">7</p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg1">7</p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">CASA PROPRIA</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">tempo para colpletar objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias2">7</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas2">7</p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min2">7</p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg2">7</p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div> </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">CURSO DE VETERINARIA</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">tempo para colpletar objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias3">7</p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas3">7</p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min3">7</p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg3">7</p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
+<div class="contador-digito">
+<p class="contador-digito-numero" id="dias0">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
 
-            </div>
+<div class="contador-digito">
+<p class="contador-digito-numero" id="horas0">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
 
+<div class="contador-digito">
+<p class="contador-digito-numero" id="min0">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
 
-        </div>
+<div class="contador-digito">
+<p class="contador-digito-numero" id="seg0">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
 
-    </section>
+</div>
+</div>
 
-    <script src="main.js"></script>
+<div class="aba-conteudo">
+<h3 class="aba-conteudo-titulo-principal">ir para a praia</h3>
+<h4 class="aba-conteudo-titulo-secundario">tempo para completar o objetivo</h4>
+<div class="contador">
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="dias1">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="horas1">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="min1">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="seg1">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+</div>
+</div>
+
+<div class="aba-conteudo">
+<h3 class="aba-conteudo-titulo-principal">acampar com os amigos</h3>
+<h4 class="aba-conteudo-titulo-secundario">tempo para completar o objetivo</h4>
+<div class="contador">
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="dias2">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="horas2">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="min2">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="seg2">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+</div>
+</div>
+
+<div class="aba-conteudo">
+<h3 class="aba-conteudo-titulo-principal">comprar um carro</h3>
+<h4 class="aba-conteudo-titulo-secundario">tempo para completar o objetivo</h4>
+<div class="contador">
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="dias3">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="horas3">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="min3">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+
+<div class="contador-digito">
+<p class="contador-digito-numero" id="seg3">7</p>
+<p class="contador-digito-texto">dias</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+<script src="main.js"></script>
 </body>
 
 </html>
