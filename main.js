@@ -45,7 +45,10 @@ if(tempoFinal>0){
 
 function atualizaCronometro(){
     for (let i=0; i<contadores.length; i++){
-        contadores[i].textContent=calculaTempo(tempos[i]);
+        document.getElementById("dias" + 1.).textContent = calculaTempo(tempos[1])[0];
+        document.getElementById("dias" + 1.).textContent = calculaTempo(tempos[1])[1];
+     document.getElementById("dias" + 1.).textContent = calculaTempo(tempos[1])[2];  
+document.getElementById("dias" + 1.).textContent = calculaTempo(tempos[1])[3];
     }
 }
 
