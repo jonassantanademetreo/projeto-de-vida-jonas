@@ -106,7 +106,11 @@
         font-size: 80px;
     }
        
-    
+    .cotador-digito.texto{
+       color: var(--verde);
+        font-size: 20px;
+        margin: 0;
+    }
     
     @media screen and (min-width:768px){
         .botoes {
